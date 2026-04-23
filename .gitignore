@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# Secrets — NEVER commit
+.env
+.env.local
+*.key
+*.pem
+claude_desktop_config.json
+secrets.yaml
+
+# Superset
+superset_home/
+superset.db
+
+# Logs
+*.log
+
+# Temp
+tmp/
+temp/
+*.tmp
