@@ -14,6 +14,32 @@
 
 ---
 
+## Preview
+
+![Final dashboard with 22 charts](screenshots/dashboard-overview.jpg)
+
+🇺🇸 *The final dashboard — 22 charts built entirely through conversation with Claude.*
+
+🇧🇷 *O dashboard final — 22 gráficos construídos inteiramente via conversa com o Claude.*
+
+<br>
+
+![Conversation with Claude](screenshots/conversation-flow.png)
+
+🇺🇸 *Example of the conversational flow — Claude calls MCP tools to execute SQL and return formatted results.*
+
+🇧🇷 *Exemplo do fluxo conversacional — o Claude chama ferramentas MCP para executar SQL e retornar resultados formatados.*
+
+<br>
+
+![Chart creation through chat](screenshots/chart-creation.png)
+
+🇺🇸 *Creating charts via conversation, not UI.*
+
+🇧🇷 *Criando gráficos via conversa, não pela interface.*
+
+---
+
 ## 🇺🇸 English
 
 ### What is this?
@@ -35,9 +61,9 @@ The technical layer of BI is becoming a commodity. This repo shows what "analyti
 
 ### Quickstart
 
-```bash
+\`\`\`bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/claude-superset-integration.git
+git clone https://github.com/Cmagno13/claude-superset-integration.git
 cd claude-superset-integration
 
 # 2. Bring up Superset (Docker)
@@ -45,27 +71,9 @@ cd claude-superset-integration
 
 # 3. Connect Claude via MCP
 # See docs/setup.md § "Connecting Claude"
-```
+\`\`\`
 
 Full instructions in [`docs/setup.md`](docs/setup.md).
-
-### Repository structure
-
-```
-.
-├── README.md                   # This file (PT + EN)
-├── LICENSE                     # Apache 2.0
-├── docs/
-│   ├── setup.md                # How to wire everything up
-│   ├── walkthrough.md          # The actual conversation, step by step
-│   └── limitations.md          # What doesn't work (yet)
-├── queries/
-│   └── platforms-analysis.sql  # SQL examples from the walkthrough
-├── examples/
-│   ├── chart-configs.md        # JSON payloads for creating charts via MCP
-│   └── dashboard-assembly.md   # How to assemble charts into a dashboard
-└── screenshots/                # Visual proof
-```
 
 ### What works / what doesn't
 
@@ -103,9 +111,9 @@ A camada técnica de BI está virando commodity. Este repositório mostra como "
 
 ### Início rápido
 
-```bash
+\`\`\`bash
 # 1. Clone
-git clone https://github.com/SEU_USUARIO/claude-superset-integration.git
+git clone https://github.com/Cmagno13/claude-superset-integration.git
 cd claude-superset-integration
 
 # 2. Suba o Superset (Docker)
@@ -113,27 +121,9 @@ cd claude-superset-integration
 
 # 3. Conecte o Claude via MCP
 # Veja docs/setup.md § "Conectando o Claude"
-```
+\`\`\`
 
 Instruções completas em [`docs/setup.md`](docs/setup.md).
-
-### Estrutura do repositório
-
-```
-.
-├── README.md                   # Este arquivo (PT + EN)
-├── LICENSE                     # Apache 2.0
-├── docs/
-│   ├── setup.md                # Como conectar tudo
-│   ├── walkthrough.md          # A conversa real, passo a passo
-│   └── limitations.md          # O que ainda não funciona
-├── queries/
-│   └── platforms-analysis.sql  # Exemplos de SQL do walkthrough
-├── examples/
-│   ├── chart-configs.md        # Payloads JSON para criar gráficos via MCP
-│   └── dashboard-assembly.md   # Como montar gráficos em dashboard
-└── screenshots/                # Prova visual
-```
 
 ### O que funciona / o que não funciona
 
