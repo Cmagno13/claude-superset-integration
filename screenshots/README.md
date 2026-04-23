@@ -18,22 +18,25 @@
 
 ![Final dashboard with 22 charts](screenshots/dashboard-overview.jpg)
 
-*The final dashboard — 22 charts built entirely through conversation with Claude.*
-*O dashboard final — 22 gráficos construídos inteiramente via conversa com o Claude.*
+🇺🇸 *The final dashboard — 22 charts built entirely through conversation with Claude.*
+
+🇧🇷 *O dashboard final — 22 gráficos construídos inteiramente via conversa com o Claude.*
 
 <br>
 
 ![Conversation with Claude](screenshots/conversation-flow.png)
 
-*Example of the conversational flow — Claude calls MCP tools to execute SQL and return formatted results.*
-*Exemplo do fluxo conversacional — o Claude chama ferramentas MCP para executar SQL e retornar resultados formatados.*
+🇺🇸 *Example of the conversational flow — Claude calls MCP tools to execute SQL and return formatted results.*
+
+🇧🇷 *Exemplo do fluxo conversacional — o Claude chama ferramentas MCP para executar SQL e retornar resultados formatados.*
 
 <br>
 
 ![Chart creation through chat](screenshots/chart-creation.png)
 
-*Creating charts via conversation, not UI.*
-*Criando gráficos via conversa, não pela interface.*
+🇺🇸 *Creating charts via conversation, not UI.*
+
+🇧🇷 *Criando gráficos via conversa, não pela interface.*
 
 ---
 
